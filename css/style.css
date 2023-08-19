@@ -588,7 +588,6 @@ section {
     .header {
         background: var(--bg-color);
         border: .2rem solid var(--text-color);
-        width: 45%;
     }
 
     .welcome {

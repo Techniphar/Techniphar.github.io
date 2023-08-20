@@ -40,14 +40,14 @@ window.onscroll = () => {
         
     });
 
-    //sticky header
+    /*  sticky header
     let header = document.querySelector('header');
 
     header.classList.toggle('sticky', window.scrollY > 100);
 
     //remove toggle icon and navbar when click(scroll)
     menuIcon.classList.remove('bx-x');
-    navbar.classList.remove('active');
+    navbar.classList.remove('active');   */
 };
 
     // scroll reveal
@@ -59,7 +59,7 @@ ScrollReveal({
 });
 
 ScrollReveal().reveal('.welcome-content, .T-img, .contact p', { origin: 'top'});
-ScrollReveal().reveal('.location p', { origin: 'bottom'});
+ScrollReveal().reveal('.location h2', { origin: 'bottom'});
 
 
 

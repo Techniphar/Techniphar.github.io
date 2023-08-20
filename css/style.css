@@ -270,9 +270,10 @@ section {
     background: var(--bg-color);
 }
 
-.location p {
-    border-left: .2rem solid var(--main-color);
+.googleMap {
+    width: 100%;
 }
+
 .contact {
     min-height: auto;
     background: var(--bg-color);
@@ -549,7 +550,7 @@ section {
     }
 
     .welcome {
-        margin-top: 40rem;
+        margin-top: 30rem;
         display: flex;
         align-items: left;
         background: var(--bg-color);
@@ -591,7 +592,7 @@ section {
     }
 
     .welcome {
-        margin-top: 40rem;
+        margin-top: 30rem;
         justify-content: center;
         display: flex;
         align-items: left;
@@ -632,7 +633,7 @@ section {
     }
     
     .welcome {
-        margin-top: 100rem;
+        margin-top: 40rem;
         justify-content: center;
         display: flex;
         align-items: left;

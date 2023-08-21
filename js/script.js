@@ -59,7 +59,7 @@ ScrollReveal({
 });
 
 ScrollReveal().reveal('.welcome-content, .T-img, .contact p', { origin: 'top'});
-ScrollReveal().reveal('.location h2', { origin: 'bottom'});
+ScrollReveal().reveal('', { origin: 'bottom'});
 
 
 
